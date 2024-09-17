@@ -125,5 +125,5 @@ app.get('/list-items/:listId', async (req, res) => {
         res.status(500).send('Error retrieving list items');
     }
 });
-
+console.log("hello");
 app.listen(port, () => console.log(`Server running on port ${port}`));
